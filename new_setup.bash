@@ -5,4 +5,4 @@ if [ ! -d "env" ]; then
 fi
 . env/bin/activate
 pip install -r requirments.txt
-colcon build
+colcon build --symlink-install

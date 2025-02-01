@@ -11,6 +11,10 @@ source ~/sdp_ws/venv/bin/activate
 
 3- 
 
+***Important Notes***
+- Do not change\ modify any thing related to the network\ OS settings without discussing other team members
+- Do not rename\ change directory of the files after building them as it may cause errors. Be orgainised and precisely create everything carefully. If any mistakes happened, discuess with the team memebers before taking any action. 
+
 # ROS2 with RP5 
 
 ## Access to RP:
@@ -106,6 +110,8 @@ https://docs.ros.org/en/jazzy/How-To-Guides/Using-Python-Packages.html#installin
 - Show Connections:
 Documentaion (refer to it always and understand before performing any action):
 https://ubuntu.com/core/docs/networkmanager
+
+- Find ip: `ip a`
 
 
 

@@ -1,15 +1,35 @@
 # Work Procedure 
 1- SSH: 
+
+From same network:
 ```
 ssh RPViam@viam.local
 ```
 
-2- Activate the virtual environment: 
+Via Internet: 
+find the ip from: https://whatismyipaddress.com/
 ```
-source ~/sdp_ws/venv/bin/activate
+ssh RPViam@ip
 ```
 
-3- 
+2- To bring the final version admitted to gitHub: 
+
+`git clone git@github.com:EngSaleha/SDP.git`
+
+3- run the setup file: This will activate the virtual environment, ensure that all lib are installed, and build the work space
+
+`bash .new_setup.bash`
+
+4- Use VS, go to source control section, there you can track the changes you made. 
+
+  - If you want to save changes (you reached stable code, but still working on it): click + to put it in stages changes
+  - If you ensured that the code is working fine and you want to add it to GitHub:
+    
+    add your name and the change you made in the comments section ***important, to track the activiteis of each member***, then click on commit.
+
+    You can either click on Sync changes (will push and pull again so you need to enter the password twice) or write in the terminal `git push` to push the changes only 
+
+
 
 ***Important Notes***
 - Do not change\ modify any thing related to the network\ OS settings without discussing other team members
@@ -65,6 +85,15 @@ source ~/sdp_ws/venv/bin/activate
   5- Ensure you sourced ROS: `source ~/your_ws/install/setup.bash`  (added to .bashrc so no need to write it each time)
 
   you can run the code from the ws directory: `ros2 run package node`
+
+- Connecting files to gitHub: > you can use VS terminal 
+  
+  1- `mkdir file`
+
+  2- `git clone [paste the respority link here]`
+
+  3- `bash .new_setup.bash`
+  
 
 ### Refer to this before:
 - Workspace:

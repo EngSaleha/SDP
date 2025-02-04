@@ -14,11 +14,12 @@ ssh RPViam@ip
 
 2- To bring the final version admitted to gitHub: 
 
-`git clone git@github.com:EngSaleha/SDP.git`
+  - For first time: `git clone git@github.com:EngSaleha/SDP.git`
+  - After building the file: `git pull`
 
-3- run the setup file: This will activate the virtual environment, ensure that all lib are installed, and build the work space
+3- run the setup file (inside SDP file): This will activate the virtual environment, ensure that all lib are installed, and build the work space
 
-`bash .new_setup.bash`
+`bash new_setup.bash`
 
 4- Use VS, go to source control section, there you can track the changes you made. 
 

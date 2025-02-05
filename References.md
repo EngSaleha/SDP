@@ -1,8 +1,9 @@
 ### References:
 - INA Driver: https://github.com/CyberDNS/ros2_ina219
+- https://github.com/clydemcqueen/opencv_cam
 
 ### Useful Links:
-
+- https://www.youtube.com/watch?v=LFDwsGXi75g&list=PL8lID45FIDTRlG2vhv6lV_jCtt5VK3mdG&index=2
 
 ### Might be helpful later: 
 - Similar Project, Have some explanations: https://github.com/czagrzebski/ROS-AMR/tree/main

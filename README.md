@@ -17,7 +17,7 @@ ssh RPViam@ip
   - For first time: `git clone git@github.com:EngSaleha/SDP.git`
   - After building the file: `git pull`
 
-3- Activate the virtual env: `source env/bin/activate`
+3- Activate the virtual env: `source env/bin/activate` and ensure all lib are installed using `bash start.bash`
 
 4- Use VS, go to source control section, there you can track the changes you made. 
 

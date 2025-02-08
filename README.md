@@ -37,6 +37,34 @@ ssh RPViam@ip
 - Do not rename\ change directory of the files after building them as it may cause errors. Be orgainised and precisely create everything carefully. If any mistakes happened, discuess with the team memebers before taking any action. 
 
 # ROS2 with RP5 
+## Enabling GUI via SSH: 
+
+1- Install vcxsrv (enable x11 forwarding on windows, as creating a server): https://vcxsrv.com/
+
+    Launch XLaunch (the VcXsrv setup tool).
+    
+    Choose Multiple windows for the display setting.
+    
+    Select Start no client to just run the X server.
+    
+    Ensure Disable access control is checked (this allows remote applications to connect).
+    
+    Check if VcXsrv is running:
+    In the system tray on Windows (right side of window), you should see the VcXsrv icon. If it's not running, start it again.
+
+2- Install PuTTy (connect x11 client to the server): https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+  Open PuTTY and Configure Your Session:
+  
+  Enter your Ubuntu server’s IP address or hostname in the "Host Name (or IP address)" field.
+ 
+  In the left-hand menu, navigate to Connection → SSH → X11.
+  
+  Check the box labeled "Enable X11 forwarding".
+  
+  In the "X display location" field, enter: `localhost:0`
+  (This tells SSH to forward X11 to your VcXsrv running on display 0.)
+
+  Click "Open" to connect to your Ubuntu server.
 
 ## Access to RP:
 

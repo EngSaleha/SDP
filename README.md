@@ -26,7 +26,9 @@ ssh RPViam@ip
     
     add your name and the change you made in the comments section ***important, to track the activiteis of each member***, then click on commit.
 
-    You can either click on Sync changes (will push and pull again so you need to enter the password twice) or write in the terminal `git push` to push the changes only 
+    You can either click on Sync changes (will push and pull again so you need to enter the password twice) or write in the terminal `git push` to push the changes only
+
+5- `pip freeze > requirements.txt` to update the req file, this will contain all lib you needed 
 
 
 

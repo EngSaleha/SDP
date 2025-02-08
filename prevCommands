@@ -1,0 +1,8 @@
+ros2 run usb_cam usb_cam_node_exe
+
+ros2 run rqt_image_view rqt_image_view > in PuTTy
+
+>> show output of the camera 
+
+
+

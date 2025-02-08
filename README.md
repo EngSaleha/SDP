@@ -66,6 +66,9 @@ ssh RPViam@ip
 
   Click "Open" to connect to your Ubuntu server.
 
+3- Check if working:
+  In terminal run:  `xeyes` it should show you an eyes on desktop
+
 ## Access to RP:
 
 1- SSH: 

@@ -37,7 +37,29 @@ ssh RPViam@ip
 - Do not rename\ change directory of the files after building them as it may cause errors. Be orgainised and precisely create everything carefully. If any mistakes happened, discuess with the team memebers before taking any action. 
 
 # ROS2 with RP5 
-## Enabling GUI via SSH: 
+## Enabling GUI:
+
+### via ROS Topics:
+
+1- In CMD: 
+```
+set ROS_DOMAIN_ID=1
+set ROS_IP=Your_Laptop_IP
+set ROS_HOSTNAME=Your_Laptop_IP
+```
+
+2- In Rasberry:
+```
+export ROS_DOMAIN_ID=1
+export ROS_IP=<Pi_IP>
+export ROS_HOSTNAME=<Pi_IP>
+```
+
+Publish from RP, and Subscribe from Laptop
+
+
+
+### via SSH:
 
 1- Install vcxsrv (enable x11 forwarding on windows, as creating a server): https://vcxsrv.com/
 

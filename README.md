@@ -57,6 +57,13 @@ export ROS_HOSTNAME=<Pi_IP>
 
 Publish from RP, and Subscribe from Laptop
 
+To test:
+
+RP: `ros2 run demo_nodes_cpp talker --ros-args --remap __ns:=/test_namespace`
+
+Laptop: `ros2 run demo_nodes_cpp listener --ros-args --remap __ns:=/test_namespace`
+
+
 
 
 ### via SSH:

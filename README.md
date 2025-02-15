@@ -30,6 +30,8 @@ ssh RPViam@ip
 
 5- `pip freeze > requirements.txt` to update the req file, this will contain all lib you needed 
 
+6- `sudo shutdown -h now` to close the RP
+
 
 
 ***Important Notes***

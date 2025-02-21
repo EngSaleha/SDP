@@ -45,6 +45,7 @@ ssh RPViam@ip
 
 1- In CMD: 
 ```
+C:\ROS2_Jazzy\ros2-windows\setup.ps1
 set ROS_DOMAIN_ID=1
 set ROS_IP=192.168.100.125
 set ROS_HOSTNAME=192.168.100.125

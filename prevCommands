@@ -1,8 +1,56 @@
+Success Test:
+
+1- Run camera node: ros2 run usb_cam usb_cam_node_exe
+2- Run Aruco detection node: ros2 launch ros2_aruco aruco_recognition.launch.py
+ros2 topic echo /aruco_markers > gives the ID of detected code and pose as shown here
+(
+header:
+  stamp:
+    sec: 1740142923
+    nanosec: 291775000
+  frame_id: default_cam
+marker_ids:
+- 1
+poses:
+- position:
+    x: -0.02950387433624539
+    y: -0.03753343783297897
+    z: 0.19408536255883405
+  orientation:
+    x: 0.694219628794717
+    y: 0.7151536425156957
+    z: 0.020028194682156785
+    w: 0.0788241461129239
+)
+
 ros2 run usb_cam usb_cam_node_exe
 
 ros2 run rqt_image_view rqt_image_view > in PuTTy
 
 >> show output of the camera 
 
+1- ros2 run opencv_cam opencv_cam_main 
+Error: 
+[ERROR] [1740121680.152548060] [camera_calibration_parsers]: Failed to detect content in .ini file
+[ERROR] [1740121680.152641819] [opencv_cam]: cannot get camera info, will not publish
+Topics: 
+/image_raw
+/parameter_events
+/rosout
+Running: ros2 run rqt_image_view rqt_image_view > PySide error and no output 
+
+2- ros2 run usb_cam usb_cam_node_exe
+Erros:
+[ERROR] [1740122156.092723105] [camera_calibration_parsers]: Unable to open camera calibration file [/home/RPViam/.ros/camera_info/default_cam.yaml]
+Topics:
+/camera_info
+/image_raw
+/image_raw/compressed
+/image_raw/compressedDepth
+/image_raw/theora
+/image_raw/zstd
+/parameter_events
+/rosout
+Running: ros2 run rqt_image_view rqt_image_view > PySide error and no output 
 
 

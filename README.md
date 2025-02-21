@@ -46,15 +46,15 @@ ssh RPViam@ip
 1- In CMD: 
 ```
 set ROS_DOMAIN_ID=1
-set ROS_IP=Your_Laptop_IP
-set ROS_HOSTNAME=Your_Laptop_IP
+set ROS_IP=192.168.100.125
+set ROS_HOSTNAME=192.168.100.125
 ```
 
 2- In Rasberry:
 ```
 export ROS_DOMAIN_ID=1
-export ROS_IP=<Pi_IP>
-export ROS_HOSTNAME=<Pi_IP>
+export ROS_IP=192.168.100.173
+export ROS_HOSTNAME=192.168.100.173
 ```
 
 Publish from RP, and Subscribe from Laptop

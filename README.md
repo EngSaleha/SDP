@@ -206,5 +206,7 @@ https://ubuntu.com/core/docs/networkmanager
 
 - Find ip: `ip a`
 
+https://chatgpt.com/share/67fad172-c148-8008-92f3-27888efcdfed
+
 
 

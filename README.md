@@ -208,5 +208,10 @@ https://ubuntu.com/core/docs/networkmanager
 
 https://chatgpt.com/share/67fad172-c148-8008-92f3-27888efcdfed
 
+### To access the GUI of RP
+1. ssh and find the ip using `ip a`
+2. open: Remote Desktop Connection from the Laptop
+3. In computer: `<the ip>: 3650`
+4. press Connect, it will show a screen and ask to enter the username and password (RPViam, 2025) 
 
 
